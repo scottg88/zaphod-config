@@ -85,7 +85,7 @@
             label = "Num";
             bindings = <
                 &kp LBKT   &kp N7     &kp N8      &kp N9          &kp RBKT        &trans          &trans         &trans      &trans     &trans
-                &kp QUOT   &kp N4     &kp N5      &kp N6          &kp EQUAL       &trans          &trans         &trans      &trans     &trans
+                &kp QUOT   &kp N4     &kp N5      &kp N6          &kp EQUAL       &trans          &trans         &trans      &trans     &kp QUOT
                 &kp GRAVE  &kp N1     &kp N2      &kp N3          &kp BSLH        &trans          &trans         &trans      &trans     &trans
                                                   &kp N0          &kp MINUS       &trans          &kp BKSP
             >;
@@ -95,7 +95,7 @@
             label = "Sym";
             bindings = <
                 &kp LBRC     &kp LS(N7)  &kp LS(N8)  &kp LS(N9) &kp RBRC          &trans &trans   &trans    &trans    &trans
-                &kp DQT      &kp LS(N4)  &kp LS(N5)  &kp LS(N6) &kp PLUS          &trans &trans   &trans    &trans    &trans
+                &kp DQT      &kp LS(N4)  &kp LS(N5)  &kp LS(N6) &kp PLUS          &trans &trans   &trans    &trans    &kp DQT
                 &kp TILDE    &kp LS(N1)  &kp LS(N2)  &kp LS(N3) &kp LS(BSLH)      &trans &trans   &trans    &trans    &trans
                                                    &kp LS(N0) &kp UNDER           &trans &trans
             >;
